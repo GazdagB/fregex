@@ -1,0 +1,30 @@
+{
+  "name": "fregex",
+  "version": "1.0.0",
+  "description": "A library designed to take the headaches out of regex-based string querying by providing an intuitive, easy-to-understand interface through appropriately named functions that read like natural language.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "exports": {
+  ".": {
+    "types": "./dist/index.d.ts",
+    "import": "./dist/index.js"
+  }
+  },
+  "files": ["dist"],
+  "scripts": {
+  "dev": "tsc --watch",
+  "build": "tsc",
+  "typecheck": "tsc --noEmit",
+  "test": "vitest",
+  "test:run": "vitest run"
+  },
+  
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.5"
+  }
+  
+}
