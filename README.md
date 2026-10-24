@@ -90,8 +90,8 @@ npm install
 
 ### Length Validation
 
-- [ ] `minLength()`
-- [ ] `maxLength()`
+- [x] `minLength()`
+- [x] `maxLength()`
 - [ ] `exactLength()`
 - [ ] `betweenLength()`
 
